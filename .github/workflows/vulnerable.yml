@@ -1,0 +1,16 @@
+name: Vulnerable PR Checker
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  check-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print PR Title
+        run: |
+          echo "Начинаем проверку PR..."
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          echo "Название PR: $PR_TITLE"
+          echo "Проверка завершена."
