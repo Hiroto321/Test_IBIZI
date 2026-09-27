@@ -1,0 +1,2 @@
+# Случайно утёкший токен разработчика
+GITHUB_TOKEN=ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghij12
