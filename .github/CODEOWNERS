@@ -1,0 +1,5 @@
+   # Все изменения в папке src требуют ревью от владельца
+   /src/ Hiroto321
+   
+   # Изменения в workflow требуют ревью
+   .github/workflows/ Hiroto321
